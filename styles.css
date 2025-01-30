@@ -1,0 +1,99 @@
+.header {
+    background: #1abc9c; 
+    color: white; 
+  }
+  
+  
+  .header h1 {
+    font-size: 40px;
+  }
+  .menu-bar {
+    overflow:hidden;
+  }
+  li {
+    display: inline-flex;
+    flex:space-around;
+    font-weight:bold;
+    font-size: 20px;
+    float: inherit;
+    padding: 8px;
+  }
+  .main-section {
+      background-image: url('https://blog.sothebysrealty.co.uk/hs-fs/hubfs/The%20Best%20Pubs%20In%20Hampstead-jpg.jpeg?width=1600&height=1064&name=The%20Best%20Pubs%20In%20Hampstead-jpg.jpeg');
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+     
+  }
+  .main-section h2 {
+    display:center;
+    position:absolute;
+  }
+  .bar{
+     color:black;
+     display:flex;
+     flex-direction:column;
+     text-align:center;
+     font-size:22px;
+     justify-content: space-around;
+  }
+  .cocktails {
+    display: inline-flex;
+    max-width: 1000px;
+    flex: column;
+    padding: 0 20px;  
+  }
+  #margrita{
+    background-image: url('240712_DanMurphys_Margarita_0797.webp');
+    background-size: cover;
+    background-position:center;
+    color:white;
+    height: 350px;
+    width: 350px;
+  }
+  #martini{
+    background-image: url('Dry_Martini_recipe.webp');
+    background-size: cover;
+    background-position:center;
+    color:white;
+    height: 350px;
+    width: 350px;
+  }
+  #negroni{
+    background-image: url('classic-negroni-6649448.jpg');
+    background-size: cover;
+    background-position:center;
+    color:white;
+    height: 350px;
+    width: 350px;
+  }
+  #sour{
+    background-image: url('Amaretto-Sour-12-500x375.jpg');
+    background-size: cover;
+    background-position:center;
+    color:white;
+    height: 350px;
+    width: 350px;
+  }
+  .home {
+    font-weight: bold;
+    color: red;
+  }
+  li .bar {
+    color: red;
+  }
+  img {
+    height: 500px;
+    width: 500px;
+    display: flex;
+  }
+  .contact {
+    background-color:white;
+    color:black;
+    border: 2px 2px;
+    margin: 0 auto;
+  }
